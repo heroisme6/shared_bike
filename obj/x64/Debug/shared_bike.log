@@ -1,0 +1,105 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.116.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  bike.pb.cpp
+D:\shared_bike\shared_bike\bike.pb.cpp(750,71): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\bike.pb.cpp(758,72): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\bike.pb.cpp(1065,72): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\bike.pb.cpp(1328,71): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\bike.pb.cpp(1593,73): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\bike.pb.cpp(1868,71): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\bike.pb.cpp(1887,74): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\bike.pb.cpp(2402,71): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\bike.pb.cpp(2421,74): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\bike.pb.cpp(2926,71): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\bike.pb.cpp(2934,72): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\bike.pb.cpp(3225,71): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\bike.pb.cpp(4046,71): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+  BusProcessor.cpp
+D:\shared_bike\shared_bike\SqlTables.h(15,71): warning : backslash and newline separated by space [enabled by default]
+D:\shared_bike\shared_bike\SqlTables.h(15,71): warning :            id    int(16)          NOT NULL primary key auto_increment, \
+D:\shared_bike\shared_bike\SqlTables.h(15,71): warning :  ^
+D:\shared_bike\shared_bike\SqlTables.h(34,64): warning : backslash and newline separated by space [enabled by default]
+D:\shared_bike\shared_bike\SqlTables.h(34,64): warning :     id    int(16)          NOT NULL primary key auto_increment, \
+D:\shared_bike\shared_bike\SqlTables.h(34,64): warning :  ^
+D:\shared_bike\shared_bike\SqlTables.h(41,18): warning : backslash and newline separated by space [enabled by default]
+D:\shared_bike\shared_bike\SqlTables.h(41,18): warning :     unique(devno) \
+D:\shared_bike\shared_bike\SqlTables.h(41,18): warning :  ^
+D:\shared_bike\shared_bike\sqlconnection.h(45,18): warning : conversion to ‘i32 {aka int}’ from ‘my_ulonglong {aka long long unsigned int}’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\sqlconnection.h(45,18): warning :    return m_pRes->row_count;
+D:\shared_bike\shared_bike\sqlconnection.h(45,18): warning :                   ^
+  DispatchMsgService.cpp
+D:\shared_bike\shared_bike\DispatchMsgService.cpp(79,34): warning : conversion to ‘i32 {aka int}’ from ‘int_t {aka long int}’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\DispatchMsgService.cpp(79,34): warning :   return thread_task_post(tp, task);//��taskͶ�ݵ��̳߳�tp��ȥ
+D:\shared_bike\shared_bike\DispatchMsgService.cpp(79,34): warning :                                   ^
+  ievent.cpp
+  events_def.cpp
+  eventtype.cpp
+  iniconfig.cpp
+D:\shared_bike\shared_bike\configdef.h(24,23): warning : conversion to ‘short unsigned int’ from ‘unsigned int’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\configdef.h(24,23): warning :         this->db_port  = db_port;
+D:\shared_bike\shared_bike\configdef.h(24,23): warning :                        ^
+D:\shared_bike\shared_bike\iniconfig.cpp(30,49): warning : conversion to ‘short unsigned int’ from ‘int’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\iniconfig.cpp(43,1): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\shared_bike\shared_bike\iniconfig.cpp(43,1): warning :  }
+D:\shared_bike\shared_bike\iniconfig.cpp(43,1): warning :  ^
+  Logger.cpp
+  main.cpp
+D:\shared_bike\shared_bike\SqlTables.h(15,71): warning : backslash and newline separated by space [enabled by default]
+D:\shared_bike\shared_bike\SqlTables.h(15,71): warning :            id    int(16)          NOT NULL primary key auto_increment, \
+D:\shared_bike\shared_bike\SqlTables.h(15,71): warning :  ^
+D:\shared_bike\shared_bike\SqlTables.h(34,64): warning : backslash and newline separated by space [enabled by default]
+D:\shared_bike\shared_bike\SqlTables.h(34,64): warning :     id    int(16)          NOT NULL primary key auto_increment, \
+D:\shared_bike\shared_bike\SqlTables.h(34,64): warning :  ^
+D:\shared_bike\shared_bike\SqlTables.h(41,18): warning : backslash and newline separated by space [enabled by default]
+D:\shared_bike\shared_bike\SqlTables.h(41,18): warning :     unique(devno) \
+D:\shared_bike\shared_bike\SqlTables.h(41,18): warning :  ^
+D:\shared_bike\shared_bike\configdef.h(24,23): warning : conversion to ‘short unsigned int’ from ‘unsigned int’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\configdef.h(24,23): warning :         this->db_port  = db_port;
+D:\shared_bike\shared_bike\configdef.h(24,23): warning :                        ^
+D:\shared_bike\shared_bike\sqlconnection.h(45,18): warning : conversion to ‘i32 {aka int}’ from ‘my_ulonglong {aka long long unsigned int}’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\sqlconnection.h(45,18): warning :    return m_pRes->row_count;
+D:\shared_bike\shared_bike\sqlconnection.h(45,18): warning :                   ^
+  NetworkInterface.cpp
+D:\shared_bike\shared_bike\NetworkInterface.cpp(75,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\NetworkInterface.cpp(75,27): warning :   sin.sin_port = htons(port);
+D:\shared_bike\shared_bike\NetworkInterface.cpp(75,27): warning :                            ^
+D:\shared_bike\shared_bike\NetworkInterface.cpp(84,1): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\shared_bike\shared_bike\NetworkInterface.cpp(84,1): warning :  }
+D:\shared_bike\shared_bike\NetworkInterface.cpp(84,1): warning :  ^
+D:\shared_bike\shared_bike\NetworkInterface.cpp(130,109): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\NetworkInterface.cpp(130,109): warning :    i32 len = bufferevent_read(bev, cs->header + cs->read_header_len, MESSAGE_HEADER_LEN - cs->read_header_len);
+D:\shared_bike\shared_bike\NetworkInterface.cpp(130,109): warning :                                                                                                              ^
+D:\shared_bike\shared_bike\NetworkInterface.cpp(164,110): warning : conversion to ‘i32 {aka int}’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\NetworkInterface.cpp(164,110): warning :    i32 len = bufferevent_read(bev, cs->read_buf + cs->read_message_len, cs->message_len - cs->read_message_len);
+D:\shared_bike\shared_bike\NetworkInterface.cpp(164,110): warning :                                                                                                               ^
+D:\shared_bike\shared_bike\NetworkInterface.cpp(23,1): warning : control reaches end of non-void function [-Wreturn-type]
+D:\shared_bike\shared_bike\NetworkInterface.cpp(23,1): warning :  }
+D:\shared_bike\shared_bike\NetworkInterface.cpp(23,1): warning :  ^
+  sqlconnection.cpp
+D:\shared_bike\shared_bike\sqlconnection.h(45,18): warning : conversion to ‘i32 {aka int}’ from ‘my_ulonglong {aka long long unsigned int}’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\sqlconnection.h(45,18): warning :    return m_pRes->row_count;
+D:\shared_bike\shared_bike\sqlconnection.h(45,18): warning :                   ^
+D:\shared_bike\shared_bike\sqlconnection.cpp(67,62): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\sqlconnection.cpp(67,62): warning :   return mysql_real_escape_string(mysql_, pDest, pSrc, nSrcLen);
+D:\shared_bike\shared_bike\sqlconnection.cpp(67,62): warning :                                                               ^
+  thread_cond.cpp
+  thread_mutex.cpp
+  thread_pool.cpp
+  user_event_handler.cpp
+D:\shared_bike\shared_bike\sqlconnection.h(45,18): warning : conversion to ‘i32 {aka int}’ from ‘my_ulonglong {aka long long unsigned int}’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\sqlconnection.h(45,18): warning :    return m_pRes->row_count;
+D:\shared_bike\shared_bike\sqlconnection.h(45,18): warning :                   ^
+D:\shared_bike\shared_bike\configdef.h(24,23): warning : conversion to ‘short unsigned int’ from ‘unsigned int’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\configdef.h(24,23): warning :         this->db_port  = db_port;
+D:\shared_bike\shared_bike\configdef.h(24,23): warning :                        ^
+  user_service.cpp
+D:\shared_bike\shared_bike\sqlconnection.h(45,18): warning : conversion to ‘i32 {aka int}’ from ‘my_ulonglong {aka long long unsigned int}’ may alter its value [-Wconversion]
+D:\shared_bike\shared_bike\sqlconnection.h(45,18): warning :    return m_pRes->row_count;
+D:\shared_bike\shared_bike\sqlconnection.h(45,18): warning :                   ^
+  正在链接对象
+  shared_bike.vcxproj -> D:\shared_bike\shared_bike\bin\x64\Debug\shared_bike.out
